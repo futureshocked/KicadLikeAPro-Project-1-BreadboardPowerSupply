@@ -1,0 +1,181 @@
+EESchema Schematic File Version 4
+EELAYER 26 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title "Breadboard Power Supply v2"
+Date "2018-08-12"
+Rev "2"
+Comp "Tech Explorations"
+Comment1 "Designed by Peter"
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L Regulator_Linear:LM7805_TO220 U?
+U 1 1 5B70E454
+P 5100 3300
+F 0 "U?" H 5100 3542 50  0000 C CNN
+F 1 "LM7805_TO220" H 5100 3451 50  0000 C CNN
+F 2 "Package_TO_SOT_THT:TO-220-3_Vertical" H 5100 3525 50  0001 C CIN
+F 3 "http://www.fairchildsemi.com/ds/LM/LM7805.pdf" H 5100 3250 50  0001 C CNN
+	1    5100 3300
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D?
+U 1 1 5B70E57A
+P 3550 3550
+F 0 "D?" V 3504 3629 50  0000 L CNN
+F 1 "D" V 3595 3629 50  0000 L CNN
+F 2 "" H 3550 3550 50  0001 C CNN
+F 3 "~" H 3550 3550 50  0001 C CNN
+	1    3550 3550
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:D D?
+U 1 1 5B70E5E4
+P 3550 4050
+F 0 "D?" V 3504 4129 50  0000 L CNN
+F 1 "D" V 3595 4129 50  0000 L CNN
+F 2 "" H 3550 4050 50  0001 C CNN
+F 3 "~" H 3550 4050 50  0001 C CNN
+	1    3550 4050
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:D D?
+U 1 1 5B70E602
+P 3900 3550
+F 0 "D?" V 3854 3629 50  0000 L CNN
+F 1 "D" V 3945 3629 50  0000 L CNN
+F 2 "" H 3900 3550 50  0001 C CNN
+F 3 "~" H 3900 3550 50  0001 C CNN
+	1    3900 3550
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:D D?
+U 1 1 5B70E624
+P 3900 4050
+F 0 "D?" V 3854 4129 50  0000 L CNN
+F 1 "D" V 3945 4129 50  0000 L CNN
+F 2 "" H 3900 4050 50  0001 C CNN
+F 3 "~" H 3900 4050 50  0001 C CNN
+	1    3900 4050
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:CP1 C?
+U 1 1 5B70E6AA
+P 5550 3550
+F 0 "C?" H 5665 3596 50  0000 L CNN
+F 1 "CP1" H 5665 3505 50  0000 L CNN
+F 2 "" H 5550 3550 50  0001 C CNN
+F 3 "~" H 5550 3550 50  0001 C CNN
+	1    5550 3550
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:CP1 C?
+U 1 1 5B70E718
+P 4450 3550
+F 0 "C?" H 4565 3596 50  0000 L CNN
+F 1 "CP1" H 4565 3505 50  0000 L CNN
+F 2 "" H 4450 3550 50  0001 C CNN
+F 3 "~" H 4450 3550 50  0001 C CNN
+	1    4450 3550
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:LED D?
+U 1 1 5B70E7B0
+P 6900 4050
+F 0 "D?" V 6938 3933 50  0000 R CNN
+F 1 "LED" V 6847 3933 50  0000 R CNN
+F 2 "" H 6900 4050 50  0001 C CNN
+F 3 "~" H 6900 4050 50  0001 C CNN
+	1    6900 4050
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:LED D?
+U 1 1 5B70E80A
+P 5950 4050
+F 0 "D?" V 5988 3933 50  0000 R CNN
+F 1 "LED" V 5897 3933 50  0000 R CNN
+F 2 "" H 5950 4050 50  0001 C CNN
+F 3 "~" H 5950 4050 50  0001 C CNN
+	1    5950 4050
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 5B70E864
+P 5950 3550
+F 0 "R?" H 6020 3596 50  0000 L CNN
+F 1 "R" H 6020 3505 50  0000 L CNN
+F 2 "" V 5880 3550 50  0001 C CNN
+F 3 "~" H 5950 3550 50  0001 C CNN
+	1    5950 3550
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 5B70E8C2
+P 6900 3550
+F 0 "R?" H 6970 3596 50  0000 L CNN
+F 1 "R" H 6970 3505 50  0000 L CNN
+F 2 "" V 6830 3550 50  0001 C CNN
+F 3 "~" H 6900 3550 50  0001 C CNN
+	1    6900 3550
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector_Generic:Conn_02x02_Odd_Even J?
+U 1 1 5B70E9B8
+P 7600 4100
+F 0 "J?" H 7650 4317 50  0000 C CNN
+F 1 "Conn_02x02_Odd_Even" H 7650 4226 50  0000 C CNN
+F 2 "" H 7600 4100 50  0001 C CNN
+F 3 "~" H 7600 4100 50  0001 C CNN
+	1    7600 4100
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector_Generic:Conn_02x02_Odd_Even J?
+U 1 1 5B70EA3E
+P 7600 3300
+F 0 "J?" H 7650 3517 50  0000 C CNN
+F 1 "Conn_02x02_Odd_Even" H 7650 3426 50  0000 C CNN
+F 2 "" H 7600 3300 50  0001 C CNN
+F 3 "~" H 7600 3300 50  0001 C CNN
+	1    7600 3300
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:Barrel_Jack_Switch J?
+U 1 1 5B70ED22
+P 2950 3650
+F 0 "J?" H 3005 3967 50  0000 C CNN
+F 1 "Barrel_Jack_Switch" H 3005 3876 50  0000 C CNN
+F 2 "" H 3000 3610 50  0001 C CNN
+F 3 "~" H 3000 3610 50  0001 C CNN
+	1    2950 3650
+	1    0    0    -1  
+$EndComp
+$Comp
+L Switch:SW_DPDT_x2 SW?
+U 1 1 5B70EDF7
+P 6450 3750
+F 0 "SW?" H 6450 4035 50  0000 C CNN
+F 1 "SW_DPDT_x2" H 6450 3944 50  0000 C CNN
+F 2 "" H 6450 3750 50  0001 C CNN
+F 3 "" H 6450 3750 50  0001 C CNN
+	1    6450 3750
+	1    0    0    -1  
+$EndComp
+$EndSCHEMATC
