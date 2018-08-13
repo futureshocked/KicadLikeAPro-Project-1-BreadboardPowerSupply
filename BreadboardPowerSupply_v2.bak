@@ -178,10 +178,6 @@ F 3 "" H 6450 3750 50  0001 C CNN
 	1    6450 3750
 	1    0    0    -1  
 $EndComp
-Text Notes 3900 4700 0    50   ~ 0
-testing git\n
 Text Notes -313450 -185750 0    50   ~ 0
 text sample 3
-Text Notes 4750 4450 0    50   ~ 0
-test 3
 $EndSCHEMATC
