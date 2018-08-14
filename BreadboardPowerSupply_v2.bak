@@ -364,4 +364,10 @@ $EndComp
 Connection ~ 4800 4550
 Wire Wire Line
 	4800 4550 5100 4550
+Text Label 6150 4550 0    50   ~ 0
+V-
+Text Label 4200 3100 0    50   ~ 0
+V+
+Text Label 5650 3300 0    50   ~ 0
+5V
 $EndSCHEMATC
