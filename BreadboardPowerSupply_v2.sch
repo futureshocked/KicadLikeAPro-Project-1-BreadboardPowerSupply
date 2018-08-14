@@ -426,4 +426,18 @@ Wire Notes Line
 	8100 4650 8100 2800
 Wire Notes Line
 	8100 2800 7100 2800
+Text Notes 2600 2800 0    50   ~ 0
+Power input
+Text Notes 3500 2800 0    50   ~ 0
+Bridge rectifier
+Text Notes 4350 2800 0    50   ~ 0
+Voltage regulator
+Text Notes 5750 2800 0    50   ~ 0
+Power\nindicator
+Text Notes 6200 2800 0    50   ~ 0
+On/Off \nswitch
+Text Notes 6750 2800 0    50   ~ 0
+Output\npower\nindicator
+Text Notes 7100 2800 0    50   ~ 0
+Power output
 $EndSCHEMATC
