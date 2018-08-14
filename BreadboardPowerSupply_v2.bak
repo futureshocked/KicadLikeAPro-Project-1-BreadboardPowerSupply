@@ -170,12 +170,12 @@ $EndComp
 $Comp
 L Switch:SW_DPDT_x2 SW1
 U 1 1 5B70EDF7
-P 6450 3750
-F 0 "SW1" H 6450 4035 50  0000 C CNN
-F 1 "SW_DPDT_x2" H 6450 3944 50  0000 C CNN
-F 2 "digikey-footprints:Switch_Slide_11.6x4mm_EG1218" H 6450 3750 50  0001 C CNN
-F 3 "" H 6450 3750 50  0001 C CNN
-	1    6450 3750
+P 6450 3300
+F 0 "SW1" H 6450 3585 50  0000 C CNN
+F 1 "SW_DPDT_x2" H 6450 3494 50  0000 C CNN
+F 2 "digikey-footprints:Switch_Slide_11.6x4mm_EG1218" H 6450 3300 50  0001 C CNN
+F 3 "" H 6450 3300 50  0001 C CNN
+	1    6450 3300
 	1    0    0    -1  
 $EndComp
 Text Notes -313450 -185750 0    50   ~ 0
@@ -216,7 +216,7 @@ NoConn ~ 3250 3650
 Wire Wire Line
 	3750 3200 3750 3100
 Wire Wire Line
-	3750 3100 4450 3100
+	3750 3100 4100 3100
 Wire Wire Line
 	4450 3100 4450 3300
 Connection ~ 3750 3200
@@ -237,7 +237,7 @@ Connection ~ 3750 4450
 Wire Wire Line
 	3750 4450 3900 4450
 Wire Wire Line
-	4450 4550 5100 4550
+	4450 4550 4800 4550
 Wire Wire Line
 	5550 4550 5550 3700
 Connection ~ 4450 4550
@@ -262,12 +262,6 @@ Wire Wire Line
 Wire Wire Line
 	5950 4550 5950 4200
 Connection ~ 5550 4550
-Wire Wire Line
-	5950 3300 6200 3300
-Wire Wire Line
-	6200 3300 6200 3750
-Wire Wire Line
-	6200 3750 6250 3750
 Connection ~ 5950 3300
 Wire Wire Line
 	5950 4550 6900 4550
@@ -277,7 +271,7 @@ Connection ~ 5950 4550
 Wire Wire Line
 	6900 3900 6900 3700
 Wire Wire Line
-	6650 3650 6650 3300
+	6650 3200 6650 3300
 Wire Wire Line
 	6650 3300 6900 3300
 Wire Wire Line
@@ -339,5 +333,35 @@ Wire Wire Line
 Wire Wire Line
 	8050 4550 7250 4550
 Connection ~ 7250 4550
-NoConn ~ 6650 3850
+NoConn ~ 6650 3400
+Wire Wire Line
+	5950 3300 6250 3300
+$Comp
+L power:PWR_FLAG #FLG0101
+U 1 1 5B72F9CB
+P 4100 3100
+F 0 "#FLG0101" H 4100 3175 50  0001 C CNN
+F 1 "PWR_FLAG" H 4100 3274 50  0000 C CNN
+F 2 "" H 4100 3100 50  0001 C CNN
+F 3 "~" H 4100 3100 50  0001 C CNN
+	1    4100 3100
+	1    0    0    -1  
+$EndComp
+Connection ~ 4100 3100
+Wire Wire Line
+	4100 3100 4450 3100
+$Comp
+L power:PWR_FLAG #FLG0102
+U 1 1 5B72FA0C
+P 4800 4550
+F 0 "#FLG0102" H 4800 4625 50  0001 C CNN
+F 1 "PWR_FLAG" H 4800 4724 50  0000 C CNN
+F 2 "" H 4800 4550 50  0001 C CNN
+F 3 "~" H 4800 4550 50  0001 C CNN
+	1    4800 4550
+	1    0    0    -1  
+$EndComp
+Connection ~ 4800 4550
+Wire Wire Line
+	4800 4550 5100 4550
 $EndSCHEMATC
