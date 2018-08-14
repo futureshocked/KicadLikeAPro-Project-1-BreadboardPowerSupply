@@ -367,7 +367,7 @@ Wire Wire Line
 Text Label 6150 4550 0    50   ~ 0
 V-
 Text Label 4200 3100 0    50   ~ 0
-V+
+Vin
 Text Label 5650 3300 0    50   ~ 0
-5V
+Vout
 $EndSCHEMATC

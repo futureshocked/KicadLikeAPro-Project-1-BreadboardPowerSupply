@@ -370,4 +370,60 @@ Text Label 4200 3100 0    50   ~ 0
 Vin
 Text Label 5650 3300 0    50   ~ 0
 Vout
+Wire Notes Line
+	3450 2800 3450 4650
+Wire Notes Line
+	3450 4650 2600 4650
+Wire Notes Line
+	2600 4650 2600 2800
+Wire Notes Line
+	2600 2800 3450 2800
+Wire Notes Line
+	3500 2800 3500 4650
+Wire Notes Line
+	3500 4650 4300 4650
+Wire Notes Line
+	4300 4650 4300 2800
+Wire Notes Line
+	4300 2800 3500 2800
+Wire Notes Line
+	4350 2800 4350 4650
+Wire Notes Line
+	4350 4650 5700 4650
+Wire Notes Line
+	5700 4650 5700 2800
+Wire Notes Line
+	5700 2800 4350 2800
+Wire Notes Line
+	5750 2800 5750 4650
+Wire Notes Line
+	5750 4650 6150 4650
+Wire Notes Line
+	6150 4650 6150 2800
+Wire Notes Line
+	6150 2800 5750 2800
+Wire Notes Line
+	6200 2800 6200 4650
+Wire Notes Line
+	6200 4650 6700 4650
+Wire Notes Line
+	6700 4650 6700 2800
+Wire Notes Line
+	6700 2800 6200 2800
+Wire Notes Line
+	6750 2800 6750 4650
+Wire Notes Line
+	6750 4650 7050 4650
+Wire Notes Line
+	7050 4650 7050 2800
+Wire Notes Line
+	7050 2800 6750 2800
+Wire Notes Line
+	7100 2800 7100 4650
+Wire Notes Line
+	7100 4650 8100 4650
+Wire Notes Line
+	8100 4650 8100 2800
+Wire Notes Line
+	8100 2800 7100 2800
 $EndSCHEMATC
