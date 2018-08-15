@@ -1,7 +1,7 @@
 (export (version D)
   (design
     (source "/home/peter/Documents/Kicad projects/KLP2/BreadboardPowerSupply_v2/BreadboardPowerSupply_v2.sch")
-    (date "Mon 13 Aug 2018 11:19:55 PM PDT")
+    (date "Tue 14 Aug 2018 09:19:34 PM PDT")
     (tool "Eeschema 5.0.0-fee4fd1~66~ubuntu18.04.1")
     (sheet (number 1) (name /) (tstamps /)
       (title_block
@@ -59,7 +59,7 @@
       (tstamp 5B70E6AA))
     (comp (ref C1)
       (value CP1)
-      (footprint Capacitor_THT:CP_Radial_D10.0mm_P5.00mm_P7.50mm)
+      (footprint Capacitor_THT:CP_Radial_D10.0mm_P5.00mm)
       (datasheet ~)
       (libsource (lib Device) (part CP1) (description "Polarised capacitor"))
       (sheetpath (names /) (tstamps /))
