@@ -369,7 +369,7 @@ V-
 Text Label 4200 3100 0    50   ~ 0
 Vin
 Text Label 5650 3300 0    50   ~ 0
-Vout
+Vout1
 Wire Notes Line
 	3450 2800 3450 4650
 Wire Notes Line
@@ -440,4 +440,10 @@ Text Notes 6750 2800 0    50   ~ 0
 Output\npower\nindicator
 Text Notes 7100 2800 0    50   ~ 0
 Power output
+Text Label 3300 3550 0    50   ~ 0
+V1
+Text Label 3300 3850 0    50   ~ 0
+V2
+Text Label 6800 3300 0    50   ~ 0
+Vout2
 $EndSCHEMATC
