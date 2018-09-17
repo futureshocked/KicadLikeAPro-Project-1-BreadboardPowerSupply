@@ -1,4 +1,5 @@
 EESchema Schematic File Version 4
+LIBS:BreadboardPowerSupply_v2-cache
 EELAYER 26 0
 EELAYER END
 $Descr A4 11693 8268
@@ -67,28 +68,6 @@ F 2 "Diode_THT:D_DO-41_SOD81_P10.16mm_Horizontal" H 3900 4050 50  0001 C CNN
 F 3 "~" H 3900 4050 50  0001 C CNN
 	1    3900 4050
 	0    1    1    0   
-$EndComp
-$Comp
-L Device:CP1 C2
-U 1 1 5B70E6AA
-P 5550 3550
-F 0 "C2" H 5665 3596 50  0000 L CNN
-F 1 "CP1" H 5665 3505 50  0000 L CNN
-F 2 "Capacitor_THT:CP_Radial_D6.3mm_P2.50mm" H 5550 3550 50  0001 C CNN
-F 3 "~" H 5550 3550 50  0001 C CNN
-	1    5550 3550
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:CP1 C1
-U 1 1 5B70E718
-P 4450 3550
-F 0 "C1" H 4565 3596 50  0000 L CNN
-F 1 "CP1" H 4565 3505 50  0000 L CNN
-F 2 "Capacitor_THT:CP_Radial_D10.0mm_P5.00mm" H 4450 3550 50  0001 C CNN
-F 3 "~" H 4450 3550 50  0001 C CNN
-	1    4450 3550
-	1    0    0    -1  
 $EndComp
 $Comp
 L Device:LED D6
@@ -446,4 +425,26 @@ Text Label 3300 3850 0    50   ~ 0
 V2
 Text Label 6800 3300 0    50   ~ 0
 Vout2
+$Comp
+L Device:CP C?
+U 1 1 5B9F5330
+P 4450 3550
+F 0 "C?" H 4568 3596 50  0000 L CNN
+F 1 "CP" H 4568 3505 50  0000 L CNN
+F 2 "Capacitor_THT:CP_Radial_D10.0mm_P5.00mm" H 4488 3400 50  0001 C CNN
+F 3 "~" H 4450 3550 50  0001 C CNN
+	1    4450 3550
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:CP C?
+U 1 1 5B9F55AF
+P 5550 3550
+F 0 "C?" H 5668 3596 50  0000 L CNN
+F 1 "CP" H 5668 3505 50  0000 L CNN
+F 2 "Capacitor_THT:CP_Radial_D6.3mm_P2.50mm" H 5588 3400 50  0001 C CNN
+F 3 "~" H 5550 3550 50  0001 C CNN
+	1    5550 3550
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
