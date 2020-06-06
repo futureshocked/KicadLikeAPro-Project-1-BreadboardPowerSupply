@@ -1,6 +1,6 @@
 # Kicad Like a Pro Project 1: A Breadboard Power Supply
 
-This is the first project from the book Kicad Like a Pro. It implements a simple breadboard power supply.
+This is the first project from the book and video course [Kicad Like a Pro](https://techexplorations.com/so/kicada/). It implements a simple breadboard power supply.
 
 In this project, you will use all of Kicad’s main features that you learned about in Parts 2 and 3 of the book. Particularly, you will learn:
 
