@@ -1,3 +1,5 @@
+View this project on [CADLAB.io](https://cadlab.io/project/24570). 
+
 # Kicad Like a Pro Project 1: A Breadboard Power Supply
 
 This is the first project from the book and video course [Kicad Like a Pro](https://techexplorations.com/so/kicada/). It implements a simple breadboard power supply.
