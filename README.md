@@ -1,4 +1,4 @@
-View this project on [CADLAB.io](https://cadlab.io/project/24570). 
+View this project on [CADLAB.io](https://cadlab.io/project/28684). 
 
 # Kicad Like a Pro Project 1: A Breadboard Power Supply
 
